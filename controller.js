@@ -7,7 +7,11 @@ function acessar(){
         alert('favor preencher todos os campos');
     }
     else{
-        // alert('campos preenchidos com sucesso');
+        //alert('campos preenchidos com sucesso');
         window.location.href = 'cadastro.html';
     }
 }
+
+//função de criação de array para armazenamento de nomes
+
+var dadosLista
