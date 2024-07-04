@@ -14,4 +14,8 @@ function acessar(){
 
 //função de criação de array para armazenamento de nomes
 
-var dadosLista
+var dadosLista = [];
+
+function salvarUser(){
+    let nomeUser = document.getElementById('nomeUser').value;
+}
