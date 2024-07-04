@@ -23,6 +23,6 @@ function salvarUser(){
 
     }
     else{
-        alert('favor informar o nome')
+        alert("favor informar o nome");
     }
 }
