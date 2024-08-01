@@ -28,3 +28,9 @@ function salvarUser(){
         alert("favor informar o nome");
     }
 }
+
+// FUNÇÃO DE CRIAÇÃO DE LISTA
+
+function criaLista(){
+    let tabela = document;getElementById('tabela').innerHTML = "<tr><th>Nome Usuáiro</th><th>Ações</th></tr>";
+}
