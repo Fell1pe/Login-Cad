@@ -33,11 +33,22 @@ function salvarUser(){
 function criarLista(){
     let tabela = document.getElementById('tabela').innerHTML = "<tr><th>Nome Usuário</th><th>Ações</th></tr>";
     for(let i = 0; i <= (dadosLista.length -1); i++){ // A propriedade length tem como responsabilidade retornar a quantidade de caracteres de uma string ou o tamanho de um array. Caso a string ou o array esteja vazio, é retornado o valor 0.
-        tabela += "<tr><td>" + dadosLista[i] + "</td><td></td></tr>";
+        tabela += "<tr><td>" + dadosLista[i] + "</td><td> <button onclick='excluir(this.parentNode.parentNode.rowIndex)'>Excluir</button> <button onclick='editar(this.parentNode.parentNode.rowIndex)'>Editar</button></td></tr>";
         document.getElementById('tabela').innerHTML = tabela;
     }
 }
 // FUNÇÃO PARA EXCLUIR NOME DE LISTA
-function excluir(){
-    
+function excluir(i){
+    dadosLista.splice((i - 1), 1);
+    document.getElementById('tabela').deleteRow(i);
+        // ADICIONA SPLICE QUE CRIA E EXCLUI ELEMENTOS DE UM ARRAY
+        // PUXA ELEMENTO ID DA TABELA E EXCLUI i DA FUNÇÃO
+} 
+// FUNÇÃO PARA EDITAR NOME DA LISTA
+// CRIA FUNÇÃO EDITAR
+function editar(i){
+    document.getElementById('nomeUser').value = dadosLista[(i - 1)];
+    dadosLista.splice(dadosLista[(i - 1)], 1);
+        // PUXA ID nomeUser E FAZ QUE O NOME VOLTE A FUNÇÃO DE ESCREVE-LO NOVAMENTE
+            // NOVAMENTE ADICIONA SPLICE QUE CRIA E EXCLUI ARRAYS
 }
