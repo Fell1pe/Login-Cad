@@ -41,7 +41,7 @@ Esse código é como um pequeno sistema de controle de acesso, onde você pode a
 
 **Linkedin**
 
-[publicação do projeto no linkedin](https://www.linkedin.com/posts/fellipe-zanin-1b1a7728b_desenvolvedorweb-frontend-htmlcssjavascript-activity-7189266133743529986-3QwA?utm_source=share&utm_medium=member_desktop)
+[publicação do projeto no linkedin](https://www.linkedin.com/posts/fellipe-zanin-1b1a7728b_javascript-html-css-activity-7227638212314189825-ZAp1?utm_source=share&utm_medium=member_desktop)
 
 ## Autores
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712280?v=4" width=115><br><sub>Fellipe Gabriel Zanin</sub>](https://github.com/Fell1pe) |
