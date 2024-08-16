@@ -15,19 +15,25 @@ function acessar(){
 //Função de criação do array para armazenamento de dados
  
 var dadosLista = [];
+var emailLista = [];
  
 function salvarUser(){
     let nomeUser = document.getElementById('nomeUser').value;
+    let emailUser = document.getElementById('emailUser').value;
  
     if(nomeUser){
         dadosLista.push(nomeUser);
+        emailLista.push(emailUser);
         // console.log(dadosLista);
         criarLista();
         document.getElementById('nomeUser').value = "";
+        document.getElementById('emailUser').value = "";
     }
     else{
         alert("Favor informar o nome");
     }
+
+    
 }
 // FUNÇÃO DE CRIAÇÃO DE LISTA
 function criarLista(){
