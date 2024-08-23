@@ -58,6 +58,7 @@ function editar(i){
     document.getElementById('nomeUser').value = dadosLista[(i - 1)];
     document.getElementById("emailUser").value = emailLista[(i - 1)];
     dadosLista.splice(dadosLista[(i - 1)], 1);
+    emailLista.splice(emailLista[(i - 1)], 1);
         // PUXA ID nomeUser E FAZ QUE O NOME VOLTE A FUNÇÃO DE ESCREVE-LO NOVAMENTE
             // NOVAMENTE ADICIONA SPLICE QUE CRIA E EXCLUI ARRAYS
 }
