@@ -2,7 +2,10 @@
 
 Esse código é como um pequeno sistema de controle de acesso, onde você pode adicionar, ver e gerenciar informações sobre os usuários. Ele utiliza a linguagem de programação JavaScript para realizar essas tarefas e interagir com a página web.
 
+2°parte do projeto de validação foi feita a partir da verificação de Email onde a partir de uma implementação javascript o usuário tem que inserir na página um Email valido.
+
 <img src="assets/tabela-login.gif">
+
 <br>
 
 
