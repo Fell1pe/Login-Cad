@@ -52,14 +52,14 @@ function excluir(i){
         // ADICIONA SPLICE QUE CRIA E EXCLUI ELEMENTOS DE UM ARRAY
         // PUXA ELEMENTO ID DA TABELA E EXCLUI i DA FUNÇÃO
 } 
-// FUNÇÃO PARA EDITAR NOME DA LISTA
+// FUNÇÃO PARA EDITAR NOME E EMAIL DA LISTA
 // CRIA FUNÇÃO EDITAR
 function editar(i){
     document.getElementById('nomeUser').value = dadosLista[(i - 1)];
     document.getElementById("emailUser").value = emailLista[(i - 1)];
     dadosLista.splice(dadosLista[(i - 1)], 1);
     emailLista.splice(emailLista[(i - 1)], 1);
-        // PUXA ID nomeUser E FAZ QUE O NOME VOLTE A FUNÇÃO DE ESCREVE-LO NOVAMENTE
+        // PUXA ID nomeUser e ID emailUser E FAZ QUE AMBOS VOLTE A FUNÇÃO DE ESCREVE-LOS NOVAMENTE
             // NOVAMENTE ADICIONA SPLICE QUE CRIA E EXCLUI ARRAYS
 }
 
