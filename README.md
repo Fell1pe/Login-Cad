@@ -53,13 +53,15 @@ Logo após dentro da function salvarUser foi adicionado um let emailUser puxando
 
 Para uma melhor usabilidade do site foi criado a função de excluir e editar.
     
+    SPLICE: CRIA E EXCLUI ELEMENTOS DE UM ARRAY
+
 * excluir:
 
-   * Para essa função funcionar foi criado uma function excluir onde ela pega as variaveis dadosLista e emailLista e insere um splice para que a função seja excluida da tabela.
+   * Para essa função funcionar foi criado uma function chamada excluir onde ela pega as variaveis dadosLista e emailLista e insere um splice para que a função seja excluida da tabela.
 
 * editar:
 
-   * para a edição das variáveis foi criada uma function editar onde é criado um document que puxa os Id tanto de nomeUser como de emailUser aplicando um valoe a ambos e logo após inserindo um splice que serve para criar esse array novamente assim o reeditando.
+   * para a edição das variáveis foi criada uma function chamada editar onde é criado um document que puxa o ID tanto de nomeUser como de emailUser aplicando um valor a ambos e logo após inserindo um splice que serve para criar esse array novamente assim o editando.
     
 ## segue o código:
 
