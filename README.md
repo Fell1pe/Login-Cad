@@ -2,9 +2,9 @@
 
 Esse código é como um pequeno sistema de controle de acesso, onde você pode adicionar, ver e gerenciar informações sobre os usuários. Ele utiliza a linguagem de programação JavaScript para realizar essas tarefas e interagir com a página web.
 
-2°parte do projeto de validação foi feita a partir da verificação de Email onde a partir de uma implementação javascript o usuário tem que inserir na página um Email valido.
+2° parte do projeto de validação foi feita a partir da verificação de Email onde a partir de uma implementação javascript o usuário tem que inserir na página um Email valido.
 
-<img src="assets/tabela-login.gif">
+<img src="assets/tabela2.gif">
 
 <br>
 
@@ -12,9 +12,11 @@ Esse código é como um pequeno sistema de controle de acesso, onde você pode a
 **índice**
 
 * [Tecnologias_utilizadas](#tecnologias-utilizadas)
-* [Informações adicionais](#informações)
+* [Informações adicionais](#Informações-adicionais)
+* [Adição da verificação de email](#adição-da-verificação-de-email)
 * [Recursos](#Recursos)
 * [Autores](#autores)
+
 
 
 ## Tecnologias utilizadas:
@@ -36,6 +38,16 @@ Esse código é como um pequeno sistema de controle de acesso, onde você pode a
 * Em cadastro.html é utilizado um início de tabela onde o usuário adiciona o nome das pessoas a serem adicionadas a tabela.
 * Também contendo na tabela a função de editar e excluir.
 * Todas as funções do código são baseados em js com a utilização de arrays.
+
+## Adição da verificação de email:
+
+* A partir dos códigos criados anteriormente ouve uma adição de uma nova var chamada emailLista.
+Logo após dentro da function salvarUser foi adicionado um let emailUser puxando um ID do mesmo (emailUser)
+    * As atribuições feitas no if e else da function salvarUser foram reaproveitadas apenas editando o alert mostrado na tela do usuário para melhor compreenção, adicionando também uma variável para a verificação do email, constando se o tal é categorizado como um Email com @ e . também como anteriormente caso essas afirmacões empregadas no if não sejam corretas o código retornara false ao usuário.
+
+## confira o código abaixo:
+
+<img src="assets/verificação-N-E.PNG">
 
 ## Recursos:
 
