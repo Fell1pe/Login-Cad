@@ -44,10 +44,27 @@ Esse código é como um pequeno sistema de controle de acesso, onde você pode a
 * A partir dos códigos criados anteriormente ouve uma adição de uma nova var chamada emailLista.
 Logo após dentro da function salvarUser foi adicionado um let emailUser puxando um ID do mesmo (emailUser)
     * As atribuições feitas no if e else da function salvarUser foram reaproveitadas apenas editando o alert mostrado na tela do usuário para melhor compreenção, adicionando também uma variável para a verificação do email, constando se o tal é categorizado como um Email com @ e . também como anteriormente caso essas afirmacões empregadas no if não sejam corretas o código retornara false ao usuário.
-
 ## confira o código abaixo:
 
 <img src="assets/verificação-N-E.PNG">
+
+
+## Função excluir e editar:
+
+Para uma melhor usabilidade do site foi criado a função de excluir e editar.
+    
+* excluir:
+
+   * Para essa função funcionar foi criado uma function excluir onde ela pega as variaveis dadosLista e emailLista e insere um splice para que a função seja excluida da tabela.
+
+* editar:
+
+   * para a edição das variáveis foi criada uma function editar onde é criado um document que puxa os Id tanto de nomeUser como de emailUser aplicando um valoe a ambos e logo após inserindo um splice que serve para criar esse array novamente assim o reeditando.
+    
+## segue o código:
+
+<img src="assets/edição-excluir.png">
+
 
 ## Recursos:
 
