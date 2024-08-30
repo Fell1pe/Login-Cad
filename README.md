@@ -4,7 +4,7 @@ Esse código é como um pequeno sistema de controle de acesso, onde você pode a
 
 2° parte do projeto de validação foi feita a partir da verificação de Email onde a partir de uma implementação javascript o usuário tem que inserir na página um Email valido.
 
-<img src="assets/tabela2.gif">
+<img src="assets/novas_1.gif">
 
 <br>
 
@@ -66,6 +66,20 @@ Para uma melhor usabilidade do site foi criado a função de excluir e editar.
 ## segue o código:
 
 <img src="assets/edição-excluir.png">
+
+
+## Adição de CPF
+
+* A partir da utilização do código anterior onde foi feita a verificação do CPF.
+    * o mesmo código foi utilizado nesse trabalho para a verificação do CPF e adição na tabela do mesmo 
+    funcionando a partir de uma variavel puxada do ID do CPF utilizado no html, onde logo após é criado 
+    uma function para validar o CPF que é puxada dentro da função anterior de criar lista assim criando o CPF.
+
+    * todas as outras alterações feitas para a inclusão do CPF foram iguais as feitas para o email.
+
+## segue imagem do código:
+
+<img src="assets/CPF.png">
 
 
 ## Recursos:
